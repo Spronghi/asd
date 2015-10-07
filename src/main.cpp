@@ -6,7 +6,7 @@ int main(int argc, char* argv[]){
 	for(i=1; i<10; ++i)
         element->append(i, i);
 	element->bubble_sort();
-    //element->print();
+    element->print();
 
     delete element;
     return 0;
